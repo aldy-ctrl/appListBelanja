@@ -102,6 +102,7 @@ function handleDelete(index) {
   renderToHtml();
 }
 
+// separator rupiah
 harga.addEventListener('keyup', function (e) {
   harga.value = formatRupiah(this.value, 'Rp. ');
 });
