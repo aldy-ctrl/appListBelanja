@@ -59,7 +59,7 @@ addList_form.addEventListener('submit', (event) => {
 // show modal
 function showModal() {
   modal.style.display = 'flex';
-  floating_button.style.backgroundColor = 'gray';
+  floating_button.style.backgroundColor = '#ff0000';
   floating_button.style.transform = 'rotate(45deg)';
 }
 
